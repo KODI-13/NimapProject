@@ -16,3 +16,7 @@ for you to run this project need to do following things
 
 3) like above folder you have to create myenv folder(i.e. virtual environment folder)
 4) and for that follow the step mentioned in the following CMD Screenshot
+
+   ![ss](https://github.com/KODI-13/NimapProject/assets/144531434/b09ab698-0e13-4f8e-a5c1-718476016a46)
+
+   All the neccessary step to run this project is mentioned in above CMD screenshot
