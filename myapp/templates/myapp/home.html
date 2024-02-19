@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <title>
+            Home
+    </title>
+</head>
+
+<body>
+    <div class="c1">
+
+        <div class="c2">
+        <h1>Click on images</h1>
+        </div>
+
+        <div class="c3">
+            <a href="/clogin/">
+                <img src="{% static 'images/img1.jpeg'%}" alt="Client">
+            </a>
+            <a href="/display/">
+                <img src="{% static 'images/img2.jpeg'%}" alt="Admin">
+            </a>
+        </div>
+
+    </div>
+</body>
+</html>

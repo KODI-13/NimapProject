@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'myapp/masterC.html' with id=id %}
+    <title>
+        {% block title%}
+            Projects
+        {% endblock %}
+    </title>
+</head>
+
+<body>
+
+    
+    {% block content %}
+        <h3>Your ongoing projects...</h3>
+        <span style="text-align: center;">
+            <h1 class="display-5">Client Details</h1>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Client Name</th>
+                    <th scope="col">Unique id</th>
+                    <th scope="col">Passowrd</th>
+                    <th scope="col">Project Name</th>
+                    <th scope="col">Created At</th>
+                    <th scope="col">Created By</th>
+                    <th scope="col">Assigned User</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Updated At</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                  <tr>
+                    <th><a href="/cupdate/{{id}}">{{data.client_name}}</a></th>
+                    <td>{{data.uniqueid}}</td>
+                    <td>{{data.password}}</td>
+                    <td>{{data.project_name}}</td>
+                    <td>{{data.created_at}}</td>
+                    <td>{{data.created_by}}</td>
+                    <td>{{data.assigned_user}}</td>
+                    <!-- <td>{{i.assigned_user}}</td> -->
+                    <td>{{data.status}}</td>
+                    <td>{{data.updated_at}}</td>
+                  </tr>
+
+    
+                </tbody>
+              </table>
+    
+        </span>
+    {% endblock %}
+
+</body>
+</html>

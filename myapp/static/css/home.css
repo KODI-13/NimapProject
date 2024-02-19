@@ -1,0 +1,24 @@
+.c2{
+    margin-bottom: 20px; /* Add space between text and images */
+}
+
+.c1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; 
+}
+
+.c3 img{
+    width: 200px; /* Set width */
+    height: 200px; /* Set height */
+    object-fit: cover; /* Optional: to maintain aspect ratio */
+    margin: 0 10px;
+    border: 2px solid transparent; /* Add transparent border */
+    transition: border-color 0.3s; /* Add transition effect */ 
+}
+
+.c3 img:hover {
+    border-color: #333; /* Change border color on hover */
+  }

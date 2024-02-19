@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends 'myapp/masterC.html' %}
+    <title>
+        {% block title%}
+            Display
+        {% endblock %}
+    </title>
+</head>
+
+<body>
+    {% block content %}
+    <div style="height: 600px; width: 550PX; background-image: url(https://cdn.wallpapersafari.com/59/51/n5aBUq.jpg); background-size: cover; margin-left: 450px; margin-top: 100px;">
+        <div style="height: 100px;">
+            <br>
+            <h3 style="text-align: center;">Project Registration Form</h3>
+        </div>
+        <form action="" style="margin-left: 180px; font-weight: 750;" method="post">
+        {% csrf_token %}
+        <span> Client Name: <br> <input type="text" name="company" id="" value="{{data.client_name}}"></span><br><br>
+        <span> Project Name: <br> <input type="text" name="project" id="" value="{{data.project_name}}"></span><br><br>
+        <span> Created At: <br> <input type="datetime-local" name="time" id=""></span><br><br>
+        <span> Created By: <br> <input type="text" name="cname" id="" value="{{data.created_by}}"></span><br><br>
+        <!-- <span> Assigned User: <br> <input type="text" name="user" id="" ></span><br><br>
+        <span> Project Status: <br> <input type="text" name="result" id=""></span><br><br> -->
+
+        <button type="submit" class="btn btn-success">Update</button>
+
+        <!-- <button type="submit" class="btn btn-success"><a href="{% url 'projects' id=data.id %}">Update</a></button> -->
+        <!-- <button class="btn btn-danger"><a href="/delete/{{data.id}}">Delete Data</a></button> -->
+        </form>
+    </div>
+    {% endblock %}
+
+</body>
+</html>
