@@ -48,6 +48,11 @@ for you to run this project need to do following things
 
 4) after that come to home page and go to client section
 
+   ![Screenshot 2024-02-20 193104](https://github.com/KODI-13/NimapProject/assets/144531434/95f8a2a6-773c-4793-9a53-2580f87119dc)
+
+5) If you're new client then create new account
+
+   
    
    
    
