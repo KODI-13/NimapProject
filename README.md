@@ -52,6 +52,11 @@ for you to run this project need to do following things
 
 5) If you're new client then create new account
 
+   ![Screenshot 2024-02-20 193430](https://github.com/KODI-13/NimapProject/assets/144531434/f1dd7140-e44b-4195-acd4-1b63573ea350)
+
+6) After that use "unique id" as username and password to login into client section
+
+   
    
    
    
