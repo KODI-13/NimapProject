@@ -4,7 +4,7 @@ The project is running successfully at my end
 .
 .
 .
-for you to run this project need to do following things
+for you to run this project need to do following things 
 
 # setup --> cmd opertaions
 
@@ -55,6 +55,8 @@ for you to run this project need to do following things
    ![Screenshot 2024-02-20 193430](https://github.com/KODI-13/NimapProject/assets/144531434/f1dd7140-e44b-4195-acd4-1b63573ea350)
 
 6) After that use "unique id" as username and password to login into client section
+
+   ![Screenshot 2024-02-20 193956](https://github.com/KODI-13/NimapProject/assets/144531434/ec33a2c9-f5fb-4ad2-9de1-cbec51d15a1f)
 
    
    
