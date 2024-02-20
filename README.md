@@ -6,6 +6,8 @@ The project is running successfully at my end
 .
 for you to run this project need to do following things
 
+# setup --> cmd opertaions
+
 1) download and Extract the file
    after extracting you will get "NimapProject-master"
    the path will be look like "C:\NimapProject-master"
@@ -20,3 +22,13 @@ for you to run this project need to do following things
    ![ss](https://github.com/KODI-13/NimapProject/assets/144531434/0dc645be-25c5-4fbf-b8c1-41299fdc7981)
 
    All the neccessary step to run this project is mentioned in above CMD screenshot
+
+
+# setup --> visual studio operations 
+
+1) perform "py manage.py makemigrations" in terminal
+2) after that perform "py manage.py migrate" in terminal
+3) and then create admin/superuser using "py manage.py createsuperuser"
+4) andd lastly run "py manage.py runserver" in terminal as shown in following ss
+
+   
