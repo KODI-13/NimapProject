@@ -70,7 +70,7 @@ for you to run this project need to do following things
 
 2) Then on navbar go to admin and do login there , the login username and password will be the one that u created in the "Visual studio terminal operations"
 
-   ![Screenshot 2024-02-20 191328](https://github.com/KODI-13/NimapProject/assets/144531434/95be699d-a761-444f-bfa8-e06060a2bb0d)
+   ![Screenshot 2024-02-20 191328](https://github.com/KODI-13/NimapProject/assets/144531434/0105691e-9ef5-4443-afb2-9c4946b00c0a)
 
 3) create the any number of users in the user table which will be later assigned by admin to projects
 
@@ -80,7 +80,7 @@ for you to run this project need to do following things
 
    ![Screenshot 2024-02-20 200235](https://github.com/KODI-13/NimapProject/assets/144531434/5720d133-6f94-4e6d-93be-ce91ea3ecabd)
 
-5) after Clicking it will take admin to project registration form where admin can assign users to client project and slso admin can perform update and delete operation from here
+5) after Clicking it will take admin to project registration form where admin can assign users to client project and also admin can perform update and delete operation from here
    
    ![Screenshot 2024-02-20 201355](https://github.com/KODI-13/NimapProject/assets/144531434/e05febc7-a9bf-4061-ba86-4e7c8f0789ef)
 
