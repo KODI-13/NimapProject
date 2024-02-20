@@ -34,5 +34,11 @@ for you to run this project need to do following things
    ![WhatsApp Image 2024-02-20 at 2 58 36 PM](https://github.com/KODI-13/NimapProject/assets/144531434/cc172355-4652-479b-bf23-58d15b993c05)
 
 # How to use project
+1) as you created superuser/admin u need to open 1st admin section
 
+   ![Screenshot 2024-02-20 191240](https://github.com/KODI-13/NimapProject/assets/144531434/de8230f6-aae9-494b-aa27-a54f0b466ee9)
+
+2) Then on navbar go to admin and do login there , the login username and password will be the one that u created in the "Visual studio terminal operations"
+
+   
    
