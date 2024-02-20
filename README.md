@@ -40,5 +40,10 @@ for you to run this project need to do following things
 
 2) Then on navbar go to admin and do login there , the login username and password will be the one that u created in the "Visual studio terminal operations"
 
+![Screenshot 2024-02-20 191328](https://github.com/KODI-13/NimapProject/assets/144531434/95be699d-a761-444f-bfa8-e06060a2bb0d)
+
+3) create the any number of users in the user table which will be later assigned by admin to projects
+
+   
    
    
