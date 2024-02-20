@@ -58,6 +58,17 @@ for you to run this project need to do following things
 
    ![Screenshot 2024-02-20 193956](https://github.com/KODI-13/NimapProject/assets/144531434/ec33a2c9-f5fb-4ad2-9de1-cbec51d15a1f)
 
+7) The client section project page 1st will look like these, To register your 1st project u need to click on the link or specifically your name
+
+   ![Screenshot 2024-02-20 194356](https://github.com/KODI-13/NimapProject/assets/144531434/6b873f0d-3d4d-49c1-8815-918ee7864c52)
+
+8) Fill the details and click on the update
+   
+   ![Screenshot 2024-02-20 194651](https://github.com/KODI-13/NimapProject/assets/144531434/80e82d79-7e85-4ae3-90c2-f3b3b806cd62)
+
+9) after that click on "projects" on navbar and you will get to see detail of your project... in which None field will be assigned by Admin
+    
+   ![Screenshot 2024-02-20 194712](https://github.com/KODI-13/NimapProject/assets/144531434/63bdfca3-96c4-4b1d-9987-0ac880e3cc51)
    
    
    
