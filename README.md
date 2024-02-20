@@ -59,7 +59,7 @@ for you to run this project need to do following things
     
    ![Screenshot 2024-02-20 194712](https://github.com/KODI-13/NimapProject/assets/144531434/63bdfca3-96c4-4b1d-9987-0ac880e3cc51)
 
-7) Same client caan create any number of projects....just click registration on the navbar
+7) Same client can create any number of projects....just click registration on the navbar
 
     ![Screenshot 2024-02-20 195946](https://github.com/KODI-13/NimapProject/assets/144531434/81887dc2-6a4e-4e44-a275-cc5f3c9e8853)
 
