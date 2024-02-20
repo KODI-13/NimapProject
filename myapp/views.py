@@ -1,7 +1,7 @@
 from django.contrib.auth import authenticate, login
 from django.http import HttpResponseRedirect
 from django.shortcuts import redirect, render
-
+from django.db.models import F, Subquery, OuterRef, Value, CharField
 from myapp.models import Client, User
 
 # Create your views here.
@@ -13,33 +13,34 @@ def projects(request,id):
     data=Client.objects.get(id=id)
     context={
         'id':id,
-        'data':data
+        'data':data,
     }
     return render(request,'myapp/projects.html',context)  
 
 def registration(request,id):
     data=Client.objects.get(id=id)
-    # projects = data.project_set.all()
-    context={
-        'id':id,
-        'data':data,
-        # 'projects': projects
-    }
     if request.method == 'POST':
         comp=request.POST.get('company')
+        un=data.uniqueid
+        ps=data.password
         pro=request.POST.get('project')
         at=request.POST.get('time')
         by=request.POST.get('cname')
         assign=request.POST.get('user')
         st=request.POST.get('result')
         up=request.POST.get('update')
-        data = Client(client_name=comp,project_name=pro,created_at=at,created_by=by,assigned_user=assign,status=st,updated_at=up)
+        data = Client(client_name=comp,uniqueid=un,password=ps,project_name=pro,created_at=at,created_by=by,assigned_user=assign,status=st,updated_at=up)
         data.save()
+    context={
+        'id':id,
+        'data':data,
+    }
     return render(request,'myapp/registration.html',context)
 
 def display(request):
     data=Client.objects.all()
     data1=User.objects.all()
+
     context={
         'data':data,
         'data1':data1
