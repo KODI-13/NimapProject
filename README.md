@@ -24,11 +24,13 @@ for you to run this project need to do following things
    All the neccessary step to run this project is mentioned in above CMD screenshot
 
 
-# setup --> visual studio operations 
+# setup --> visual studio terminal operations 
 
 1) perform "py manage.py makemigrations" in terminal
 2) after that perform "py manage.py migrate" in terminal
 3) and then create admin/superuser using "py manage.py createsuperuser"
 4) andd lastly run "py manage.py runserver" in terminal as shown in following ss
+
+   ![WhatsApp Image 2024-02-20 at 2 58 36 PM](https://github.com/KODI-13/NimapProject/assets/144531434/cc172355-4652-479b-bf23-58d15b993c05)
 
    
