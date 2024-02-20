@@ -76,10 +76,18 @@ for you to run this project need to do following things
 
    ![Screenshot 2024-02-20 191517](https://github.com/KODI-13/NimapProject/assets/144531434/4ac55c55-7a8e-4c34-bf35-f342d23cea72)
 
-4) The admin can check the details of all clients
-    
-![Screenshot 2024-02-20 200235](https://github.com/KODI-13/NimapProject/assets/144531434/cb883a67-38ed-453d-88ee-f065b84a3385)
+4) The admin can check the details of all clients and assign users to those project by clicking on there name
+
+   ![Screenshot 2024-02-20 200235](https://github.com/KODI-13/NimapProject/assets/144531434/5720d133-6f94-4e6d-93be-ce91ea3ecabd)
+
+5) after Clicking it will take admin to project registration form where admin can assign users to client project and slso admin can perform update and delete operation from here
    
+   ![Screenshot 2024-02-20 201355](https://github.com/KODI-13/NimapProject/assets/144531434/e05febc7-a9bf-4061-ba86-4e7c8f0789ef)
+
+6) Admin can see the updated details in the display page
+   
+   ![Screenshot 2024-02-20 201752](https://github.com/KODI-13/NimapProject/assets/144531434/41d0def8-7be0-4cfa-99a1-dd9f06baf2e6)
+
    
    
    
